@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2B9C2B220C1DA900CFF451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C2A220C1DA900CFF451 /* AppDelegate.swift */; };
+		AA2B9C2D220C1DAA00CFF451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C2C220C1DAA00CFF451 /* ViewController.swift */; };
+		AA2B9C30220C1DAA00CFF451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2B9C2E220C1DAA00CFF451 /* Main.storyboard */; };
+		AA2B9C32220C1DAC00CFF451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2B9C31220C1DAC00CFF451 /* Assets.xcassets */; };
+		AA2B9C35220C1DAC00CFF451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2B9C33220C1DAC00CFF451 /* LaunchScreen.storyboard */; };
+		AA2B9C3D220C213F00CFF451 /* UIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C3C220C213F00CFF451 /* UIViewViewController.swift */; };
+		AA2B9C3F220C255600CFF451 /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C3E220C255600CFF451 /* UILabelViewController.swift */; };
+		AA2B9C41220C2ADD00CFF451 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C40220C2ADD00CFF451 /* UIButtonViewController.swift */; };
+		AA2B9C43220C362700CFF451 /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C42220C362700CFF451 /* UITextFieldViewController.swift */; };
+		AA2B9C45220C4A1300CFF451 /* UIIMageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C44220C4A1300CFF451 /* UIIMageViewViewController.swift */; };
+		AA2B9C47220C59EA00CFF451 /* UISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C46220C59EA00CFF451 /* UISegmentedControlViewController.swift */; };
+		AA2B9C492210706300CFF451 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C482210706300CFF451 /* PickerViewViewController.swift */; };
+		AA2B9C4B2210733100CFF451 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C4A2210733100CFF451 /* DatePickerViewController.swift */; };
+		AA2B9C4D22107E2100CFF451 /* tableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B9C4C22107E2100CFF451 /* tableViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA2B9C27220C1DA900CFF451 /* viewsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2B9C2A220C1DA900CFF451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA2B9C2C220C1DAA00CFF451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA2B9C2F220C1DAA00CFF451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2B9C31220C1DAC00CFF451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2B9C34220C1DAC00CFF451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA2B9C36220C1DAC00CFF451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2B9C3C220C213F00CFF451 /* UIViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewViewController.swift; sourceTree = "<group>"; };
+		AA2B9C3E220C255600CFF451 /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
+		AA2B9C40220C2ADD00CFF451 /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
+		AA2B9C42220C362700CFF451 /* UITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
+		AA2B9C44220C4A1300CFF451 /* UIIMageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIMageViewViewController.swift; sourceTree = "<group>"; };
+		AA2B9C46220C59EA00CFF451 /* UISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlViewController.swift; sourceTree = "<group>"; };
+		AA2B9C482210706300CFF451 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		AA2B9C4A2210733100CFF451 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		AA2B9C4C22107E2100CFF451 /* tableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2B9C24220C1DA900CFF451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2B9C1E220C1DA900CFF451 = {
+			isa = PBXGroup;
+			children = (
+				AA2B9C29220C1DA900CFF451 /* viewsExample */,
+				AA2B9C28220C1DA900CFF451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2B9C28220C1DA900CFF451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B9C27220C1DA900CFF451 /* viewsExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2B9C29220C1DA900CFF451 /* viewsExample */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B9C2A220C1DA900CFF451 /* AppDelegate.swift */,
+				AA2B9C2C220C1DAA00CFF451 /* ViewController.swift */,
+				AA2B9C2E220C1DAA00CFF451 /* Main.storyboard */,
+				AA2B9C31220C1DAC00CFF451 /* Assets.xcassets */,
+				AA2B9C33220C1DAC00CFF451 /* LaunchScreen.storyboard */,
+				AA2B9C36220C1DAC00CFF451 /* Info.plist */,
+				AA2B9C3C220C213F00CFF451 /* UIViewViewController.swift */,
+				AA2B9C3E220C255600CFF451 /* UILabelViewController.swift */,
+				AA2B9C40220C2ADD00CFF451 /* UIButtonViewController.swift */,
+				AA2B9C42220C362700CFF451 /* UITextFieldViewController.swift */,
+				AA2B9C44220C4A1300CFF451 /* UIIMageViewViewController.swift */,
+				AA2B9C46220C59EA00CFF451 /* UISegmentedControlViewController.swift */,
+				AA2B9C482210706300CFF451 /* PickerViewViewController.swift */,
+				AA2B9C4A2210733100CFF451 /* DatePickerViewController.swift */,
+				AA2B9C4C22107E2100CFF451 /* tableViewViewController.swift */,
+			);
+			path = viewsExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2B9C26220C1DA900CFF451 /* viewsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2B9C39220C1DAC00CFF451 /* Build configuration list for PBXNativeTarget "viewsExample" */;
+			buildPhases = (
+				AA2B9C23220C1DA900CFF451 /* Sources */,
+				AA2B9C24220C1DA900CFF451 /* Frameworks */,
+				AA2B9C25220C1DA900CFF451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viewsExample;
+			productName = viewsExample;
+			productReference = AA2B9C27220C1DA900CFF451 /* viewsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2B9C1F220C1DA900CFF451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Codework;
+				TargetAttributes = {
+					AA2B9C26220C1DA900CFF451 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AA2B9C22220C1DA900CFF451 /* Build configuration list for PBXProject "viewsExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2B9C1E220C1DA900CFF451;
+			productRefGroup = AA2B9C28220C1DA900CFF451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2B9C26220C1DA900CFF451 /* viewsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2B9C25220C1DA900CFF451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2B9C35220C1DAC00CFF451 /* LaunchScreen.storyboard in Resources */,
+				AA2B9C32220C1DAC00CFF451 /* Assets.xcassets in Resources */,
+				AA2B9C30220C1DAA00CFF451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2B9C23220C1DA900CFF451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2B9C41220C2ADD00CFF451 /* UIButtonViewController.swift in Sources */,
+				AA2B9C2D220C1DAA00CFF451 /* ViewController.swift in Sources */,
+				AA2B9C492210706300CFF451 /* PickerViewViewController.swift in Sources */,
+				AA2B9C3D220C213F00CFF451 /* UIViewViewController.swift in Sources */,
+				AA2B9C47220C59EA00CFF451 /* UISegmentedControlViewController.swift in Sources */,
+				AA2B9C2B220C1DA900CFF451 /* AppDelegate.swift in Sources */,
+				AA2B9C4B2210733100CFF451 /* DatePickerViewController.swift in Sources */,
+				AA2B9C43220C362700CFF451 /* UITextFieldViewController.swift in Sources */,
+				AA2B9C3F220C255600CFF451 /* UILabelViewController.swift in Sources */,
+				AA2B9C4D22107E2100CFF451 /* tableViewViewController.swift in Sources */,
+				AA2B9C45220C4A1300CFF451 /* UIIMageViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA2B9C2E220C1DAA00CFF451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2B9C2F220C1DAA00CFF451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA2B9C33220C1DAC00CFF451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2B9C34220C1DAC00CFF451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2B9C37220C1DAC00CFF451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA2B9C38220C1DAC00CFF451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2B9C3A220C1DAC00CFF451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P9FMEPLRC;
+				INFOPLIST_FILE = viewsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codework.viewsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2B9C3B220C1DAC00CFF451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P9FMEPLRC;
+				INFOPLIST_FILE = viewsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codework.viewsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2B9C22220C1DA900CFF451 /* Build configuration list for PBXProject "viewsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2B9C37220C1DAC00CFF451 /* Debug */,
+				AA2B9C38220C1DAC00CFF451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2B9C39220C1DAC00CFF451 /* Build configuration list for PBXNativeTarget "viewsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2B9C3A220C1DAC00CFF451 /* Debug */,
+				AA2B9C3B220C1DAC00CFF451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2B9C1F220C1DA900CFF451 /* Project object */;
+}
